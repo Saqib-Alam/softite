@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navigate-links a {
+    /* font-size: 16px !important; */
+    padding: 0px 17px !important;
+    font-weight: 500;
+}
+
+
+.slider-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sliderContent-container {
+    backdrop-filter: blur(2px); 
+    border: double;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 640px;
+    height: 220px;
+    color: #ffffff;
+    padding: 0px 40px;
+}
+
+
+.sliderContent-container h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.sliderContent-container p{
+    font-size: 1.1rem;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+
+/* cards */
+
+.cards-container{
+    margin-top: -40px;
+    /* z-index: 1; */
+}
+.card-box{
+    z-index: 1;
+}
+.cards, .service-cards{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 16px 16px 0px 16px;
+    /* z-index: 1; */
+    background-color: #ffffff;
+    color: rgb(68, 68, 68);
+    height: 220px;
+}
+
+.service-cards{
+    height: 280px;
+}
+
+.service-box{
+    margin-bottom: 20px;
+}
+
+.cards i{
+    /* font-size: 2rem; */
+    color: #4c8bbb;
+    margin: 5px 0px 10px 0px;
+}
+.service-cards i{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.cards h5,.service-cards h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.cards p, .service-cards p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.serviceIcon-box{
+    background-color: #006EBC;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-border{
+    border: 2px solid #006EBC;
+    padding: 3px;
+    margin-bottom: 16px;
+}
+
+.sercive-container{
+    background-color: #F9F9F9;
+    margin-top: 50px;
+}
+
+.service-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.service-heading span{
+    color: #006EBC;
+}
+
+/* about section */
+
+.about-sec{
+    margin-top: 5rem;
+}
+
+.about-img{
+    /* margin: 0px auto; */
+}
+.about-img img{
+    width: 100%;
+}
+.about-col{
+    margin: auto;
+}
+.about-txt h6{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.about-txt h3{
+    color: #2785C7;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.about-txt p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.about-txt button{
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #2785C7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* contact bar */
+
+.contact-sec{
+    background-image: url("images/blue-paper-texture-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    color: #ffffff;
+}
+.contact-sec h2{
+    font-size: 2rem;
+}
+
+.conct-btn{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* testinomialas */
+
+.test{
+    width: 650px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+    /* background-color: #8A8A8A; */
+
+}
+
+.test-headings{
+
+}
+.testim-descrip{
+    color: #8A8A8A;
+    font-size: 1rem;
+    text-align: center;
+}
+.testim-title{
+    color: #525252;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.testim-post{
+    color: #006EBC;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+
+.testinomial{
+    width: 500px;
+    margin: auto;
+    padding-bottom: 10px !important  ;
+    padding: 20px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Footer */
+
+
+footer{
+    /* background-color: #006EBC; */
+    margin-top: 20px;
+    background-image: url("images/blue-paper-texture-background.jpg");
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-head{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-AbtText{
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+    color: #fff;
+}
+
+.footer-links{
+    padding: 0px;
+}
+.footer-links li{
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (min-width: 576px) {
+    /* Add your CSS rules here for screens wider than 768px */
+    .sliderContent-container {
+        width: 350px;
+        height: 130px;
+
+    }
+
+    .sliderContent-container h3{
+        font-size: 1rem;
+
+    }
+    .sliderContent-container p{
+        font-size: 0.8rem;
+
+    }
+
+    .cards{
+        height: 180px;
+        
+    }
+    .cards i{
+        font-size: 1.6rem;
+    }
+
+    .cards h5{
+        font-size: 1rem;
+
+    }
+    .cards p, .service-cards p{
+        font-size: 0.8rem;
+    }
+    
+    /* service cards */
+
+    .service-heading{
+        font-size: 1.5rem;
+    }
+   .service-cards{
+        height: 220px;
+    }
+    
+   .service-cards{
+        margin: 0px;
+        height: 280px;
+    }
+    
+    .cards i{
+        font-size: 1.6rem;
+    }
+
+    .service-cards i{
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .service-cards h5{
+        font-size: 1.2rem;
+    }
+    .serviceIcon-box{
+        width: 80px;
+        height: 80px;
+    }
+    
+
+    .service-cards p{
+        font-size: 1rem;
+    }
+
+    /* ----------------- */
+
+    .about-txt {
+        margin-top: 40px;
+    }
+
+    .contact-sec h2{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    .conct-btBox, .conct-txtBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .test{
+        width: 520px;
+        /* background-color: bisque; */
+    
+    }
+    .testim-descrip{
+        font-size: 0.9rem;
+    }
+
+
+ 
+  }
+  
+@media screen and (min-width: 768px) {
+    /* Add your CSS rules here for screens wider than 768px */
+    .sliderContent-container {
+        width: 550px;
+        height: 160px;
+
+    }
+
+    .sliderContent-container h3{
+        font-size: 1.4rem;
+
+    }
+    .sliderContent-container p{ 
+        font-size: 1rem;
+    }
+
+    .service-heading{
+        font-size: 2rem;
+    }
+    .service-cards{
+        height: 240px;
+        margin: 0px;
+    }
+    
+    .cards{
+        height: 220px;
+        margin: 0px;
+    }
+    .cards i, .service-cards i{
+        font-size: 1.6rem;
+    }
+
+    .cards h5, .service-cards h5{
+        font-size: 1rem;
+
+    }
+    .cards p, .service-cards p{
+        font-size: 0.8rem;
+    }
+    .serviceIcon-box{
+        background-color: #006EBC;
+        width: 50px;
+        height: 50px;
+    }
+
+    .about-txt {
+        margin-top: 0px;
+    }
+
+    .about-txt h6{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .about-txt h3{
+        color: #2785C7;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .about-txt p{
+        font-size: 0.8rem;
+        line-height: 1.6rem;
+    }
+
+    /* contact bar */
+    .contact-sec h2{
+        font-size: 1.6rem;
+    }
+
+    .test{
+        width: 650px;
+    
+    }
+    .testim-descrip{
+        font-size: 1rem;
+    }
+
+  }
+
+
+@media screen and (min-width: 992px) {
+    /* Add your CSS rules here for screens wider than 768px */
+    .sliderContent-container {
+        width: 640px;
+        height: 220px;
+
+    }
+
+    .sliderContent-container h3{
+        font-size: 1.8rem;
+
+    }
+    .sliderContent-container p{
+        font-size: 1.1rem;
+    }
+
+    .cards,  .service-cards{
+        margin: 0px;
+        padding: 16px 16px 0px 16px;
+        background-color: #ffffff;
+        height: 220px;
+    }
+    
+   .service-cards{
+        margin: 0px;
+        height: 280px;
+    }
+    
+    .cards i{
+        font-size: 1.6rem;
+    }
+
+    .service-cards i{
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .cards h5{
+        font-size: 1.1rem;
+    }
+    .service-cards h5{
+        font-size: 1.2rem;
+    }
+    .serviceIcon-box{
+        width: 80px;
+        height: 80px;
+    }
+    
+
+    .cards p, .service-cards p{
+        font-size: 1rem;
+    }
+
+    .about-txt h6{
+        font-size: 1rem;
+    }
+    .about-txt h3{
+        font-size: 1.8rem;
+    }
+    .about-txt p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .contact-sec h2{
+        font-size: 2rem;
+    }
+    .footer-links li{
+        font-size: 0.9rem;
+    }
+    
+  }
+
+
+
+
+  @media screen and (max-width: 575px){
+
+    .logo{
+        width: 200px;
+    }
+
+    .carouselSection div{
+        height: 250px;
+        /* background-color: blanchedalmond; */
+    }
+    .carousell-slide{
+        /* height: 250px; */
+    }
+    .sliderContent-container {
+        width: 260px;
+        /* padding: 0px; */
+        /* height: 40px; */
+        /* background-color: bisque; */
+    }
+    .sliderContent-container h3{
+        font-size: 1rem;
+    }
+    
+    .sliderContent-container p{
+        font-size: 0.8rem;
+    }
+
+    .cards i{
+        font-size: 1.6rem;
+    }
+
+    .service-cards i{
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .cards h5{
+        font-size: 1rem;
+    }
+    .service-cards h5{
+        font-size: 1.2rem;
+    }
+    /* .serviceIcon-box{
+        width: 80px;
+        height: 80px;
+    }
+     */
+
+    .cards p, .service-cards p{
+        font-size: 0.8rem;
+    }
+.about-txt h3{
+font-size: 1.4rem;
+}
+
+.about-txt p{
+    font-size: 0.8rem;
+    /* line-height: 2rem; */
+}
+
+.contact-sec h2{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.conct-btn{
+    padding: 10px 20px;
+    /* border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600; */
+}
+
+.conct-btBox, .conct-txtBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+ .service-heading{
+    font-size: 1.5rem;
+}
+
+.test{
+    width: 300px;
+    /* background-color: bisque; */
+
+}
+
+.testinomial{
+    width: 280px;
+}
+.testim-descrip{
+    font-size: 0.8rem;
+}
+
+  }
